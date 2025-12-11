@@ -4,8 +4,7 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      enabled: true,
-      origin: ['http://localhost:3000'],
+      origin: ['https://shop-sportif.vercel.app', 'http://localhost:3000'],
       credentials: true,
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization', 'X-Frame-Options', 'strapi'],
