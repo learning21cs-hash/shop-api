@@ -5,6 +5,6 @@ export default ({ env }) => ({
     },
   },
   upload: {
-    enabled: false,
+    enabled: true,
   },
 });
