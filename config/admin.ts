@@ -11,6 +11,6 @@ export default ({ env }) => ({
     },
   },
   secretsJWT: [env('ADMIN_JWT_SECRET')],
-  // Désactiver le panel
-  disabled: true,
+  // Panel admin ACTIVÉ
+  disabled: false,
 });
